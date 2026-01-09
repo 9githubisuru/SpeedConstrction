@@ -26,8 +26,8 @@ const tabs = [
     image: landImg,
   },
   {
-    id: "Ongoing Projects",
-    label: "Ongoing Projects",
+    id: "Our Projects",
+    label: "Our Projects",
     title: "End-to-end construction services",
     description:
       "From planning to completion, we offer professional construction and consultancy services.",
@@ -94,8 +94,8 @@ const CategorySection = () => {
       navigate("/house-design");
     } else if (activeTab.id === "lands") {
       navigate("/lands");
-    } else if (activeTab.id === "Ongoing Projects") {
-      navigate("/ongoing-projects");
+    } else if (activeTab.id === "Our Projects") {
+      navigate("/our-projects");
     }
   };
 
