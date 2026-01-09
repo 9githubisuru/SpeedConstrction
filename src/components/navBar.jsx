@@ -61,7 +61,9 @@ function NavBar() {
     <>
       <div className="flex flex-col  fixed top-0 left-0 w-full p-3 z-50 bg-white bg-opacity-90 backdrop-blur-sm">
         <div className="flex items-center space-x-4">
-          <img src={logo} alt="Logo" className="w-12 h-12" />
+          <a href="/">
+            <img src={logo} alt="Logo" className="w-12 h-12" />
+          </a>
           <span className="text-1xl font-medium text-[#4f6168]">
             Speed Construction & Property Development
           </span>
