@@ -1,4 +1,5 @@
 import logo from "../assets/logo.jpeg";
+import FloatingWhatsApp from "./FloatingWhatsApp ";
 
 const BottomCTA = () => {
   return (
@@ -24,13 +25,13 @@ const BottomCTA = () => {
           >
             speedconstruction.info@gmail.com
           </a>
-          <a
+          {/* <a
             href="#"
             className="text-gray-400 hover:text-white transition-colors duration-300"
           >
             +94 71 871 7017
-          </a>
-
+          </a> */}
+          <FloatingWhatsApp/>
           {/* Social Links */}
           <div className="flex gap-8 text-gray-400">
             <a
